@@ -1,8 +1,29 @@
 aid: tric-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tric-robotics.png
 name: TRIC Robotics
-description: 'TRIC Robotics is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  TRIC Robotics builds autonomous agricultural robots that replace chemical pesticides with
+  ultraviolet light. Its flagship platform, Luna, is a tractor-scale robot that roams California
+  strawberry fields after dark, using UV-C light to kill fungal pathogens such as powdery mildew
+  and botrytis while a mechanical "Bug Vac" removes pests like Lygus bugs, spotted wing drosophila,
+  and spider mites — without a single drop of pesticide. Founded in 2017 by Dr. Adam Stager and
+  Vishnu Somasundaram out of the University of Delaware and now based in California, TRIC operates a
+  robotics-as-a-service model that requires no upfront investment from growers, and reports pesticide
+  reductions of up to 70% across the farms it serves. The company raised a $5.5M seed round led by
+  Version One Ventures to expand its fleet across Santa Maria, Oxnard, and Watsonville. TRIC Robotics
+  is an agricultural robotics operator and does not currently publish a public developer API, SDK, or
+  developer portal; this profile captures its company identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tric-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Robotics
+- Agriculture
+- AgTech
+- Automation
+- Autonomous Vehicles
+- Pest Control
+- Sustainability
+- Robotics as a Service
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tric-robotics-domain-security.yml
+- type: Website
+  url: https://www.tricrobotics.com/
+- type: About
+  url: https://www.tricrobotics.com/about-new/
+- type: Support
+  url: https://www.tricrobotics.com/contact-new/
+- type: PrivacyPolicy
+  url: https://www.tricrobotics.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
